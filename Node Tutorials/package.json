@@ -9,6 +9,7 @@
   "author": "Bishal Koirala",
   "license": "ISC",
   "dependencies": {
-    "colors": "^1.4.0"
+    "colors": "^1.4.0",
+    "express": "^4.21.1"
   }
 }

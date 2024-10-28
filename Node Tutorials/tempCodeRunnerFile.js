@@ -1,5 +1,5 @@
-fs.unlinkSync(dirPath+"/fruit.txt", (err)=>{
-    if(!err){
-        console.log("File  is deleted successfully");
-    }
-})
+console.log("Start Execution....");
+
+// console.log("Logic Execution....");
+
+// console.log("Execution Completed....");
