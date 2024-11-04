@@ -6,5 +6,6 @@ const patientSchema = new mongoose.Schema({
     email: String,
 });
 
+
 module.exports = mongoose.model('patients', patientSchema);
 

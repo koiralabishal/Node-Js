@@ -14,6 +14,9 @@ app.get("/", async (req, res) => {
   res.send(data);
 });
 
+
+
+
 //POSTApi
 app.post("/", async (req, res) => {
   const db = await dbConnect();
@@ -21,6 +24,8 @@ app.post("/", async (req, res) => {
   res.send(insertData);
   console.log(insertData);
 });
+
+
 
 //PUTApi
 app.put("/:name", async (req, res) => {

@@ -42,6 +42,11 @@ app.delete("/:_id", async (req, res) => {
     res.send(data);
 });
 
+
+
+
+
+
 //search api
 app.get("/search/:key", async (req, res) => {
     console.log(req.params.key);
@@ -56,5 +61,6 @@ app.get("/search/:key", async (req, res) => {
     console.log(data);
     res.send(data);
   });
-  
+
+
 app.listen(5000);
